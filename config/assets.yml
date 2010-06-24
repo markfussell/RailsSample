@@ -1,0 +1,14 @@
+# for more info, see http://documentcloud.github.com/jammit/
+
+#compressor_options:
+#  compilation_level: "ADVANCED_OPTIMIZATIONS"
+embed_assets: on
+javascript_compressor: yui
+#package_assets: always #enable this if you want to try the packaging out in development
+
+javascripts:
+  standard:
+    - public/javascripts/*.js
+stylesheets:
+  standard:
+    #- public/stylesheets/app/**/*.css
